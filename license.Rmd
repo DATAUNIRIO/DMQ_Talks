@@ -1,0 +1,27 @@
+---
+title: "Committees"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## About the Conference Committees and Organizers
+
+
+## Organizing Committee - OC
+
+Em desenvolvimento.
+
+
+
+
+
+
+
+## Scientific Committee - SC
+
+Em desenvolvimento.

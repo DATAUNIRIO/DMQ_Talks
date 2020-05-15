@@ -1,0 +1,18 @@
+---
+title: "Público Alvo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Participantes
+
+Professores do DMQ. 
+
+Alunos da UNIRIO.
+
+Professores/técnicos da Escola de Matemática.
+
+Professores/técnicos do CCET.

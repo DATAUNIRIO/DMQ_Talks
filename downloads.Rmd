@@ -1,0 +1,17 @@
+---
+title: "Método de trabalho"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Segundas de pesquisa do DMQ TALKS
+
+Toda semana um(a) professor(a) do DMQ apresentará um trabalho de ensino/pesquisa dessa época do COVID. 
+
+Serão 40 minutos de exposição do professor via ZOOM.
+
+Em seguida vamos ter 20 minutos para um debate/bate papo/perguntas. 
+

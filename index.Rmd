@@ -1,0 +1,26 @@
+---
+title: "Análise Estatística "
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## em época de COVID 19  
+
+  
+**Sobre os nossos processos de trabalho na pós-pandemia **
+
+Provavelmente não devemos voltar a dar aula da mesma maneira do ano passado.  
+*  As aulas deverão ser com uso de máscaras.   
+*  As aulas deverão ser com um espaço de 1,5 metros de distância entre os alunos   
+*  Precisamos de novas formas de ensino/aprendizagem.  
+*  Como preparar o professor(a) para esse novo processo de trabalho?  
+
+Essas e outras questões deverão ser discutidas.
+
+
+
+
+
