@@ -1,12 +1,21 @@
 ---
-title: "Contato"
+title: "  "
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
+## Contato
 
 Para entrar em contato, por favor, acesse o site do [GAE](http://gae.uniriotec.br/)

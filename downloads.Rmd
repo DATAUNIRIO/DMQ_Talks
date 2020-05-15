@@ -1,13 +1,25 @@
 ---
-title: "Método de trabalho"
+title: " "
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## Segundas de pesquisa do DMQ TALKS
+
+## Método de trabalho
+
+### Segundas de pesquisa do DMQ TALKS
 
 Toda semana um(a) professor(a) do DMQ apresentará um trabalho de ensino/pesquisa dessa época do COVID. 
 

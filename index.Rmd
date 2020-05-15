@@ -1,13 +1,23 @@
 ---
-title: "Análise Estatística "
+title: "   "
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-## em época de COVID 19  
+
+## Análise Estatística em época de COVID 19  
 
   
 **Sobre os nossos processos de trabalho na pós-pandemia **
