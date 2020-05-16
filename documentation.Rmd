@@ -1,16 +1,15 @@
 ---
 title: "  "
-output:
-  html_document:
-    toc: true
-    toc_float: true
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#output:
+#  html_document:
+#    toc: true
+#    toc_float: true
 ```
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -21,15 +20,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Objetivos
 
-## Integração
 ### Aumentar a integração do DMQ.
 
-##  Novas Ferramentas
 ### Aumentar o entendimento sobre as novas ferramentas virtuais (skype, meet, zoon e webex). Como maximizar o seu uso?
-
-## Comunicação
 
 ### Melhorar a comunicação/visibilidade das pesquisas e atividades acadêmicas dos professores do DMQ durante a pandemia do COVID 19.
 
-## Prestação de contas
 ### Prestação de contas à sociedade, à UNIRIO e ao MEC.  

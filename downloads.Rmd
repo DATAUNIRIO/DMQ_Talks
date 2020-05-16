@@ -13,8 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 <br>
-<br>
-<br>
 
 
 ## Método de trabalho
