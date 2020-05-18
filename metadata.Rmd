@@ -16,15 +16,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em construção</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Perspectivas para nossa vida pessoal e acadêmica pós pandemia</span>
 <br>
 <br>
 <br>
 
+## Resumo
+
+<span style=" font-size: 20px; font-weight:bold; color:darkblue;">A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que haverá mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.</span>
+<br>
+<br>
+<br>
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Tereza Serrano</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Tereza Barbosa</span>
 <br>
 <br>
 <br>
