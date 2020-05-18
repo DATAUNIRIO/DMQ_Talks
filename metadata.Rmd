@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold; color:darkblue;">A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que haverá mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.</span>
+<span style=" font-size: 20px; font-weight:bold; color:darkblue;">A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.</span>
 <br>
 <br>
 <br>
