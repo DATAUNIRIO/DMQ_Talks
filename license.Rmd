@@ -18,13 +18,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## About the Conference Committees and Organizers
+<br>
+<br>
 
 
 ## Organizing Committee - OC
 
-Em desenvolvimento.
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Alexandre Sousa da Silva</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Felipe Rafael Ribeiro Melo</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Maria Beatriz Assunção Mendes da Cunha</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Steven Dutt Ross</span>
 
 
+
+<br>
+<br>
 
 
 
@@ -32,4 +40,10 @@ Em desenvolvimento.
 
 ## Scientific Committee - SC
 
-Em desenvolvimento.
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Alexandre Sousa da Silva</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Felipe Rafael Ribeiro Melo</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Maria Beatriz Assunção Mendes da Cunha</span>
+*  <span style=" font-size: 20px; font-weight:bold; color:#1a1a1a;">Steven Dutt Ross</span>
+
+
+
