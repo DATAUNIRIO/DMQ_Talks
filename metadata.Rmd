@@ -60,8 +60,19 @@ Palestrante<-c("Tereza Serrano","Vinicius Israel","Luciane Velasque",
                "Alexandre Silva","Letícia Raposo",
                "Bruno Simões Melo","Felipe Ribeiro","Davi Alves",
                "Beatriz Cunha","Steven Ross")
-prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante)
-colnames(prog)<-c("Datas","Hora","Palestrante")
+
+Link<- c("meet.google.com/wqk-fcod-eps",
+"meet.google.com/bwt-pmee-acz",
+"meet.google.com/mrw-qgvc-svf",
+"meet.google.com/axv-azca-rwq",
+"meet.google.com/cfo-zhba-oyr",
+"meet.google.com/xjh-fimh-zxd",
+"meet.google.com/uns-ycoi-bzk",
+"meet.google.com/adf-ftxf-idn",
+"meet.google.com/phz-tmge-tqs",
+"meet.google.com/aeu-aahe-kws")
+prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante,Link)
+colnames(prog)<-c("Datas","Hora","Palestrante","Link")
 
 DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 #DT::datatable(head(iris), editable = 'cell')
