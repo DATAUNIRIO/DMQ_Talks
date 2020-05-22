@@ -56,9 +56,9 @@ minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08",
                          "2020-06-27"))
 minhahora<-rep("14 Horas",10)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Tereza Serrano","Vinicius Israel","Luciane Velasque",
+Palestrante<-c("Tereza Barbosa","Vinicius Israel","Luciane Velasque",
                "Alexandre Silva","Letícia Raposo",
-               "Bruno Simões Melo","Felipe Ribeiro","Davi Alves",
+               "Bruno Simões","Felipe Ribeiro","Davi Alves",
                "Beatriz Cunha","Steven Ross")
 
 Link<- c("meet.google.com/wqk-fcod-eps",
