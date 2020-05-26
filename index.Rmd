@@ -15,18 +15,22 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 
-## Análise Estatística em época de COVID 19  
+## Práticas pedagógicas no período de pós-pandemia
 
-  
+
 **Sobre os nossos processos de trabalho na pós-pandemia **
+
+<!--
+Análise Estatística em época de COVID 19  
+
 
 Provavelmente não devemos voltar a dar aula da mesma maneira do ano passado.  
 *  As aulas deverão ser com uso de máscaras.   
 *  As aulas deverão ser com um espaço de 1,5 metros de distância entre os alunos   
-*  Precisamos de novas formas de ensino/aprendizagem.  
+*  Precisamos de novas formas de ensino/aprendizagem.  -->
 *  Como preparar o professor(a) para esse novo processo de trabalho?  
 
-Essas e outras questões deverão ser discutidas.
+Essa e outras questões deverão ser discutidas.
 
 
 
