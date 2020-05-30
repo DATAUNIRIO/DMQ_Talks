@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Título da Palestra
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
-Práticas didático-pedagógicas no período de pós-pandemia e a formação de professores para o exercício responsável da docência online</span>
+Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online</span>
 <br>
 <br>
 <br>
@@ -32,7 +32,7 @@ Práticas didático-pedagógicas no período de pós-pandemia e a formação de 
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Pimentel </span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Mariano Pimentel </span>
 <br>
 <br>
 <br>
@@ -40,7 +40,7 @@ Práticas didático-pedagógicas no período de pós-pandemia e a formação de 
 
 ## Mediador/Debatedor
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Vinicius Israel</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Vinicius Israel</span>
 <br>
 <br>
 <br>
