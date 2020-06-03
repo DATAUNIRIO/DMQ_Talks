@@ -23,5 +23,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-<!--
-Para entrar em contato, por favor, acesse o site do [GAE](http://gae.uniriotec.br/)-->
+
