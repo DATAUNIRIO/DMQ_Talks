@@ -1,5 +1,5 @@
 ---
-title: "Estatística ou Ciência de Dados?"
+title: "Tidy Little Things"
 subtitle: "Ensino, pesquisa e extensão"  
 author: "Steven Dutt Ross"
 categories: ["R","UNIRIO", "twitter", "Python"]
