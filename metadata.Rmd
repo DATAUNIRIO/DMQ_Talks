@@ -82,6 +82,8 @@ colnames(prog)<-c("Datas","Hora","Palestrante","Link")
 
 DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 #DT::datatable(head(iris), editable = 'cell')
+
+estimativa_do_numero_de_pessoas<-c(23,60)
 ```
 
 <br>
