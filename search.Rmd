@@ -17,13 +17,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Público Alvo
 
-Professores do DMQ. 
+Professores do DMQ e do DMat. 
 
 Alunos da UNIRIO.
 
-Professores/técnicos da Escola de Matemática.
+Técnicos da Escola de Matemática.
 
 Professores/técnicos do CCET.
-
-
+<br>
+<br>
 Para entrar em contato, por favor, acesse o site do [GAE](http://gae.uniriotec.br/)

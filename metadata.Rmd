@@ -17,30 +17,38 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Título da Palestra
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
-Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online</span>
+Educação Estatística na promoção do engajamento cívico
+</span>
 <br>
 <br>
 <br>
-<!--
+
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold; color:darkblue;">A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.</span>
+<span style=" font-size: 20px; font-weight:bold; color:darkblue;">
+Os fenômenos sociais são complexos e as democracias precisam de cidadãos que possam explorar, entender e raciocinar sobre evidências e informações fundamentadas em dados e resultados estatísticos. <br> <br>
+Nessa conversa serão apresentadas iniciativas metodológicas, ferramentas computacionais, portais e artigos que apoiam e incentivam o desenvolvimento de cidadãos ativos e capacitados a participar de decisões da sociedade.
+</span>
+
+<!--
+A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.-->
+
 <br>
 <br>
 <br>
--->
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Mariano Pimentel </span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">
+Prof. Alexandre Silva </span>
 <br>
 <br>
 <br>
 
 
-## Mediador/Debatedor
+## Mediadora/Debatedora
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Vinicius Israel</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Letícia Raposo</span>
 <br>
 <br>
 <br>
@@ -52,25 +60,32 @@ Práticas didático-pedagógicas e a formação de professores para o exercício
 <br>
 <br>
 
+## Link para o evento
+
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">
+ <a href="https://www.meet.google.com/axv-azca-rwq">meet.google.com/axv-azca-rwq</a> 
+</span>
+
+<br>
+<br>
+
+
+
 ## Programação: Próximas datas
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-06-01","2020-06-08",
-                         "2020-06-15","2020-06-22","2020-06-29",
+minhasdatas <- as.Date(c("2020-06-15","2020-06-22","2020-06-29",
                          "2020-07-06","2020-06-13","2020-06-20",
                          "2020-06-27"))
-minhahora<-rep("14 Horas",9)
+minhahora<-rep("14 Horas",7)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Pimentel/Vinicius","Luciane Velasque",
-               "Alexandre Silva","Letícia Raposo",
-               "Bruno Simões","Felipe Ribeiro","Davi Alves",
-               "Beatriz Cunha","Steven Ross")
+Palestrante<-c("Luciane Velasque",
+               "Letícia Raposo","Bruno Simões","Felipe Ribeiro"
+               ,"Davi Alves","Beatriz Cunha","Steven Ross")
 
 # Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas no período de pós-pandemia e a formação de professores para o exercício responsável da docência online")
 
-Link<- c("meet.google.com/bwt-pmee-acz",
-"meet.google.com/mrw-qgvc-svf",
-"meet.google.com/axv-azca-rwq",
+Link<- c("meet.google.com/mrw-qgvc-svf",
 "meet.google.com/cfo-zhba-oyr",
 "meet.google.com/xjh-fimh-zxd",
 "meet.google.com/uns-ycoi-bzk",
@@ -83,34 +98,34 @@ colnames(prog)<-c("Datas","Hora","Palestrante","Link")
 DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 #DT::datatable(head(iris), editable = 'cell')
 
-estimativa_do_numero_de_pessoas<-c(23,60)
+#estimativa_do_numero_de_pessoas<-c(23,60)
 ```
 
 <br>
 <br>
 
 
-## Programação: Eventos anteriores
+## Eventos anteriores
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-05-25"))
-#                         ,"2020-06-01","2020-06-08",
+minhasdatas <- as.Date(c("2020-05-25"
+                         ,"2020-06-01"))
+#,"2020-06-08",
 #                         "2020-06-15","2020-06-22","2020-06-29",
 #                         "2020-07-06","2020-06-13","2020-06-20",
 #                         "2020-06-27"))
-minhahora<-rep("14 Horas",1)
+minhahora<-rep("14 Horas",2)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Tereza Barbosa")
-#               ,"Pimentel/Vinicius","Luciane Velasque",
-#               "Alexandre Silva","Letícia Raposo",
+Palestrante<-c("Tereza Barbosa"
+               ,"Pimentel/Vinicius")
+#"Alexandre Silva","Luciane Velasque","Letícia Raposo",
 #               "Bruno Simões","Felipe Ribeiro","Davi Alves",
 #               "Beatriz Cunha","Steven Ross")
 
-Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia")
-#, "Práticas didático-pedagógicas no período de pós-pandemia e a formação de professores para o exercício responsável da docência online")
+Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online")
 
-Link<- c("meet.google.com/wqk-fcod-eps")
-#,"meet.google.com/bwt-pmee-acz",
+Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz")
+#,
 #"meet.google.com/mrw-qgvc-svf",
 #"meet.google.com/axv-azca-rwq",
 #"meet.google.com/cfo-zhba-oyr",
