@@ -4,6 +4,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+library("htmltools")
+library("vembedr")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
@@ -22,8 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 
 ```{r, echo=FALSE}
-library("htmltools")
-library("vembedr")
+
 embed_url("https://youtu.be/Ai6wcDdHhmc")
 
 ```
