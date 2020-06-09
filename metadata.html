@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,14 +22,14 @@
 <script src="libs/navigation-1.1/tabsets.js"></script>
 <link href="libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
 <link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="libs/datatables-binding-0.4/datatables.js"></script>
-<link href="libs/dt-core-1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="libs/dt-core-1.10.16/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="libs/dt-core-1.10.16/js/jquery.dataTables.min.js"></script>
-<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
-<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<script src="libs/datatables-binding-0.13/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -78,9 +78,7 @@ h6 {
 
 <link rel="stylesheet" href="libs\uds\styles_blue.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -94,7 +92,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -104,6 +101,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -119,7 +119,6 @@ body {
   padding-top: 46px;
   margin-top: -46px;
 }
-
 .section h2 {
   padding-top: 46px;
   margin-top: -46px;
@@ -139,6 +138,43 @@ body {
 .section h6 {
   padding-top: 46px;
   margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -160,19 +196,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -237,45 +328,57 @@ $(document).ready(function () {
 
 
 <p><br> <br> <br> <br> <br> <br> <br></p>
-<div id="titulo-da-palestra" class="section level2">
+<div id="título-da-palestra" class="section level2">
 <h2>Título da Palestra</h2>
-<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;"> Educação Estatística na promoção do engajamento cívico </span> <br> <br> <br></p>
+<!--
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">
+ -
+</span>
+
+-->
+<p><br> <br> <br></p>
 </div>
 <div id="resumo" class="section level2">
 <h2>Resumo</h2>
-<p><span style=" font-size: 20px; font-weight:bold; color:darkblue;"> Os fenômenos sociais são complexos e as democracias precisam de cidadãos que possam explorar, entender e raciocinar sobre evidências e informações fundamentadas em dados e resultados estatísticos. <br> <br> Nessa conversa serão apresentadas iniciativas metodológicas, ferramentas computacionais, portais e artigos que apoiam e incentivam o desenvolvimento de cidadãos ativos e capacitados a participar de decisões da sociedade. </span></p>
+<p><br> <br></p>
 <!--
+<span style=" font-size: 20px; font-weight:bold; color:darkblue;">
+Os fenômenos sociais são complexos e as democracias precisam de cidadãos que possam explorar, entender e raciocinar sobre evidências e informações fundamentadas em dados e resultados estatísticos. <br> <br>
+Nessa conversa serão apresentadas iniciativas metodológicas, ferramentas computacionais, portais e artigos que apoiam e incentivam o desenvolvimento de cidadãos ativos e capacitados a participar de decisões da sociedade.
+</span>
+
+
 A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.-->
 <p><br> <br> <br></p>
 </div>
 <div id="palestrante" class="section level2">
 <h2>Palestrante</h2>
-<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;"> Prof. Alexandre Silva </span> <br> <br> <br></p>
+<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;"> Profa. Luciane Velasque </span> <br> <br> <br></p>
 </div>
 <div id="mediadoradebatedora" class="section level2">
-<h2>Mediadora/Debatedora</h2>
-<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Letícia Raposo</span> <br> <br> <br></p>
+<h2>Mediador(a)/Debatedor(a)</h2>
+<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Davi Alves</span> <br> <br> <br></p>
 </div>
-<div id="horario" class="section level2">
+<div id="horário" class="section level2">
 <h2>Horário</h2>
 <p><span style=" font-size: 32px; font-weight:bold; color:darkblue;">14:00 horas</span></p>
 <p><br> <br></p>
 </div>
 <div id="link-para-o-evento" class="section level2">
 <h2>Link para o evento</h2>
-<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;"> <a href="https://www.meet.google.com/axv-azca-rwq">meet.google.com/axv-azca-rwq</a> </span></p>
+<p><span style=" font-size: 32px; font-weight:bold; color:darkblue;"> <a href="meet.google.com/mrw-qgvc-svf">meet.google.com/mrw-qgvc-svf</a> </span></p>
 <p><br> <br></p>
 </div>
-<div id="programacao-proximas-datas" class="section level2">
+<div id="programação-próximas-datas" class="section level2">
 <h2>Programação: Próximas datas</h2>
-<div id="htmlwidget-4929dede24754f479e9c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4929dede24754f479e9c">{"x":{"filter":"none","data":[["15 06 2020","22 06 2020","29 06 2020","06 07 2020","13 06 2020","20 06 2020","27 06 2020"],["14 Horas","14 Horas","14 Horas","14 Horas","14 Horas","14 Horas","14 Horas"],["Luciane Velasque","Letícia Raposo","Bruno Simões","Felipe Ribeiro","Davi Alves","Beatriz Cunha","Steven Ross"],["meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd","meet.google.com/uns-ycoi-bzk","meet.google.com/adf-ftxf-idn","meet.google.com/phz-tmge-tqs","meet.google.com/aeu-aahe-kws"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>Datas<\/th>\n      <th>Hora<\/th>\n      <th>Palestrante<\/th>\n      <th>Link<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-be473d8ff526bd035d88" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-be473d8ff526bd035d88">{"x":{"filter":"none","data":[["22 06 2020","29 06 2020","06 07 2020","13 06 2020","20 06 2020","27 06 2020"],["14 Horas","14 Horas","14 Horas","14 Horas","14 Horas","14 Horas"],["Letícia Raposo","Bruno Simões","Felipe Ribeiro","Davi Alves","Beatriz Cunha","Steven Ross"],["meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd","meet.google.com/uns-ycoi-bzk","meet.google.com/adf-ftxf-idn","meet.google.com/phz-tmge-tqs","meet.google.com/aeu-aahe-kws"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>Datas<\/th>\n      <th>Hora<\/th>\n      <th>Palestrante<\/th>\n      <th>Link<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <p><br> <br></p>
 </div>
 <div id="eventos-anteriores" class="section level2">
 <h2>Eventos anteriores</h2>
-<div id="htmlwidget-81a28ddba7c125ca6624" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-81a28ddba7c125ca6624">{"x":{"filter":"none","data":[["25 05 2020","01 06 2020"],["14 Horas","14 Horas"],["Tereza Barbosa","Pimentel/Vinicius"],["Perspectivas para nossa vida pessoal e acadêmica pós pandemia","Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online"],["meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>Datas<\/th>\n      <th>Hora<\/th>\n      <th>Palestrante<\/th>\n      <th>Título<\/th>\n      <th>Link<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-87f13ee6fc5a59c8873b" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-87f13ee6fc5a59c8873b">{"x":{"filter":"none","data":[["25 05 2020","01 06 2020","08 06 2020"],["14 Horas","14 Horas","14 Horas"],["Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva"],["Perspectivas para nossa vida pessoal e acadêmica pós pandemia","Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico"],[null,"https://youtu.be/Ai6wcDdHhmc",null]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>Datas<\/th>\n      <th>Hora<\/th>\n      <th>Palestrante<\/th>\n      <th>Título<\/th>\n      <th>Link<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 
 <div id="FooterText">
@@ -302,6 +405,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
