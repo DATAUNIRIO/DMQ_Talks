@@ -70,7 +70,7 @@ Profa. Luciane Velasque  </span>
 ## Link para o evento
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- <a href="meet.google.com/mrw-qgvc-svf">meet.google.com/mrw-qgvc-svf</a> 
+ <a href="https://meet.google.com/mrw-qgvc-svf">meet.google.com/mrw-qgvc-svf</a> 
 </span>
 
 <br>
