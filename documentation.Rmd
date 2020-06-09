@@ -20,10 +20,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Objetivos
 
-### Aumentar a integração do DMQ.
+1.  Aumentar a integração do DMQ.
 
-### Aumentar o entendimento sobre as novas ferramentas virtuais (skype, meet, zoon e webex). Como maximizar o seu uso?
+2.  Aumentar o entendimento sobre as novas ferramentas virtuais (skype, meet, zoon e webex). Como maximizar o seu uso?
 
-### Melhorar a comunicação/visibilidade das pesquisas e atividades acadêmicas dos professores do DMQ durante a pandemia do COVID 19.
+3.  Melhorar a comunicação/visibilidade das pesquisas e atividades acadêmicas dos professores do DMQ durante a pandemia do COVID 19.
 
-### Prestação de contas à sociedade, à UNIRIO e ao MEC.  
+4.  Prestação de contas à sociedade, à UNIRIO e ao MEC.  
+
+<br>
+<br>
+<br>
+
+## Método de trabalho
+
+### Segundas de pesquisa do DMQ TALKS
+
+Toda semana um(a) professor(a) do DMQ apresentará um trabalho de ensino/pesquisa dessa época do COVID. 
+
+Serão 40 minutos de exposição do professor via ZOOM.
+
+Em seguida vamos ter 20 minutos para um debate/bate papo/perguntas. 
+

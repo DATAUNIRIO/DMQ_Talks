@@ -14,14 +14,17 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
+# Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online
+<br>
 
-## Método de trabalho
 
-### Segundas de pesquisa do DMQ TALKS
+## Prof. Mariano Pimentel
+<br>
 
-Toda semana um(a) professor(a) do DMQ apresentará um trabalho de ensino/pesquisa dessa época do COVID. 
+```{r, echo=FALSE}
+library("htmltools")
+library("vembedr")
+embed_url("https://youtu.be/Ai6wcDdHhmc")
 
-Serão 40 minutos de exposição do professor via ZOOM.
-
-Em seguida vamos ter 20 minutos para um debate/bate papo/perguntas. 
+```
 
