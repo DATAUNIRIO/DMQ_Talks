@@ -16,26 +16,24 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<!--
+
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- -
+O Pandemônio da Pandemia
 </span>
 
--->
-<br>
-<br>
 <br>
 
 ## Resumo
 
-<br>
-<br>
+<span style=" font-size: 20px; font-weight:bold; color:darkblue;">
+Quando o ano de 2020 iniciou não tínhamos ideia do que iríamos vivenciar, mas o primeiro caso de COVID-19 já tinha sido reportado na China em 31 de dezembro de 2019. Aí veio o carnaval e quando finalmente o ano acadêmico estava prestes a iniciar em março, a medida de distanciamento social para contenção da pandemia nos afastou de nossas rotinas diárias e nos colocou frente a incertezas, novos desafios e a muitas, muitas reflexões. É sobre essas reflexões e desafios da vida acadêmica que irei abordar na minha apresentação do DMQ Talks.
+</span>
+<br> 
+
 
 <!--
-<span style=" font-size: 20px; font-weight:bold; color:darkblue;">
-Os fenômenos sociais são complexos e as democracias precisam de cidadãos que possam explorar, entender e raciocinar sobre evidências e informações fundamentadas em dados e resultados estatísticos. <br> <br>
 Nessa conversa serão apresentadas iniciativas metodológicas, ferramentas computacionais, portais e artigos que apoiam e incentivam o desenvolvimento de cidadãos ativos e capacitados a participar de decisões da sociedade.
-</span>
+
 
 
 A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.-->
