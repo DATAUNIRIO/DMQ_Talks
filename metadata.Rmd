@@ -24,10 +24,7 @@ Atividades e Ferramentas para o Ensino Online
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold; color:darkblue;">
-
-Diante da pandemia da COVID-19, as aulas online têm sido avaliadas e aplicadas em algumas instituições como substitutas temporárias do ensino presencial. Inúmeros professores que nunca tiveram experiência com um ensino nesta modalidade, de repente, se veem diante do desafio de ministrarem um curso remoto. Eis que surge a pergunta: "Como proporcionar ao aluno um ensino online de qualidade, criativo e dinâmico de forma a envolvê-lo ativamente nas aulas?". Para tentar responder à pergunta, irei apresentar algumas atividades e ferramentas que podem ser utilizadas no ensino online. A ideia principal é compartilharmos experiências e ideias a fim de nos prepararmos para uma nova forma de ensinar.
-</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Diante da pandemia da COVID-19, as aulas online têm sido avaliadas e aplicadas em algumas instituições como substitutas temporárias do ensino presencial. Inúmeros professores que nunca tiveram experiência com um ensino nesta modalidade, de repente, se veem diante do desafio de ministrarem um curso remoto. Eis que surge a pergunta: "Como proporcionar ao aluno um ensino online de qualidade, criativo e dinâmico de forma a envolvê-lo ativamente nas aulas?". Para tentar responder à pergunta, irei apresentar algumas atividades e ferramentas que podem ser utilizadas no ensino online. A ideia principal é compartilharmos experiências e ideias a fim de nos prepararmos para uma nova forma de ensinar.</span>
 <br> 
 
 <!--
