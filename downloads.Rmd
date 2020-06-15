@@ -16,9 +16,26 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
-# Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online
+<!--O Pandemônio da Pandemia -->
+
+# Educação Estatística na promoção do engajamento cívico
 <br>
 
+## Prof. Alexandre Silva
+<br>
+
+
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/A42EgBiG3Zs")
+
+```
+
+<br>
+<br>
+
+# Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online
+<br>
 
 ## Prof. Mariano Pimentel
 <br>
@@ -29,3 +46,21 @@ embed_url("https://youtu.be/Ai6wcDdHhmc")
 
 ```
 
+<br>
+<br>
+
+# Perspectivas para nossa vida pessoal e acadêmica pós pandemia
+<br>
+
+## Profa. Tereza Barbosa
+<br>
+
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/bZl3-HJdLlo")
+
+```
+
+<br>
+<br>
+<br>
