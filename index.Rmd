@@ -9,7 +9,22 @@ summary: 'Práticas pedagógicas no período de pós-pandemia.'
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(metathis)
+	meta() %>%
+	  meta_general(
+	  description = "Evento DMQ TALKS. Práticas pedagógicas no período de pós-pandemia",
+	  generator = "Rmarkdown"
+	  ) %>%
+	meta_description("Evento DMQ TALKS. Práticas pedagógicas no período de pós-pandemia.") %>% 
+	meta_social(
+	  title = "DMQ TALKS",
+		url = "https://dataunirio.github.io/DMQ_Talks/",
+	  og_type = "website",
+		og_author = "DMQ"
+	)
 ```
+
+
 <br>
 <br>
 <br>
