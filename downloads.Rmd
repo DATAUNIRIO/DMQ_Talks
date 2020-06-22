@@ -20,7 +20,21 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
-<!--O Pandemônio da Pandemia -->
+# O Pandemônio da Pandemia 
+<br>
+
+## Profa. Luciane Velasque
+<br>
+
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/2bTlNeYpW1E")
+
+```
+
+<br>
+<br>
+
 
 # Educação Estatística na promoção do engajamento cívico
 <br>

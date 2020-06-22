@@ -21,6 +21,14 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Apresentações
 <br>
 
+<span style=" font-size: 28px; font-weight:bold; color:darkblue;">Profa. Letícia Raposo</span>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/9cHSmJIZ3LrU88" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/StevenRoss16/dmq-talks-profa-letcia-raposo-atividades-e-ferramentas-para-o-ensino-online" title="DMQ Talks Profa. Letícia Raposo Atividades e Ferramentas para o Ensino Online " target="_blank">DMQ Talks Profa. Letícia Raposo Atividades e Ferramentas para o Ensino Online </a> </strong> from <strong><a href="https://www.slideshare.net/StevenRoss16" target="_blank">Letícia Raposo</a></strong> </div>
+
+<br>
+<br>
+<br>
+
 <span style=" font-size: 28px; font-weight:bold; color:darkblue;">Profa. Luciane Velasque</span>
 
 <a href="https://prezi.com/view/xfri27mU7imdIMafZ28G/">

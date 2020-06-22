@@ -21,36 +21,37 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Título da Palestra
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
-Atividades e Ferramentas para o Ensino Online
+Em breve vamos ter o título da palestra
 </span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Diante da pandemia da COVID-19, as aulas online têm sido avaliadas e aplicadas em algumas instituições como substitutas temporárias do ensino presencial. Inúmeros professores que nunca tiveram experiência com um ensino nesta modalidade, de repente, se veem diante do desafio de ministrarem um curso remoto. Eis que surge a pergunta: "Como proporcionar ao aluno um ensino online de qualidade, criativo e dinâmico de forma a envolvê-lo ativamente nas aulas?". Para tentar responder à pergunta, irei apresentar algumas atividades e ferramentas que podem ser utilizadas no ensino online. A ideia principal é compartilharmos experiências e ideias a fim de nos prepararmos para uma nova forma de ensinar.</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve vamos ter o resumo</span>
 <br> 
 
 <!--
+
+Diante da pandemia da COVID-19, as aulas online têm sido avaliadas e aplicadas em algumas instituições como substitutas temporárias do ensino presencial. Inúmeros professores que nunca tiveram experiência com um ensino nesta modalidade, de repente, se veem diante do desafio de ministrarem um curso remoto. Eis que surge a pergunta: "Como proporcionar ao aluno um ensino online de qualidade, criativo e dinâmico de forma a envolvê-lo ativamente nas aulas?". Para tentar responder à pergunta, irei apresentar algumas atividades e ferramentas que podem ser utilizadas no ensino online. A ideia principal é compartilharmos experiências e ideias a fim de nos prepararmos para uma nova forma de ensinar.
+
 Quando o ano de 2020 iniciou não tínhamos ideia do que iríamos vivenciar, mas o primeiro caso de COVID-19 já tinha sido reportado na China em 31 de dezembro de 2019. Aí veio o carnaval e quando finalmente o ano acadêmico estava prestes a iniciar em março, a medida de distanciamento social para contenção da pandemia nos afastou de nossas rotinas diárias e nos colocou frente a incertezas, novos desafios e a muitas, muitas reflexões. É sobre essas reflexões e desafios da vida acadêmica que irei abordar na minha apresentação do DMQ Talks.
 
 Nessa conversa serão apresentadas iniciativas metodológicas, ferramentas computacionais, portais e artigos que apoiam e incentivam o desenvolvimento de cidadãos ativos e capacitados a participar de decisões da sociedade.
-
-
 
 A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incertezas mas já indicam que deverão acontecer mudanças relevantes na nossa vida. Serão feitas reflexões a respeito das que poderão ser positivas e que medidas para diminuir os efeitos negativos.-->
 <br>
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Letícia Raposo</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Bruno Simões</span>
 <br>
 <br>
 <br>
 
 ## Mediador(a)/Debatedor(a)
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Bruno Simões</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Beatriz Cunha</span>
 <br>
 <br>
 <br>
@@ -65,7 +66,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Link para o evento
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- <a href="https://meet.google.com/cfo-zhba-oyr">meet.google.com/cfo-zhba-oyr</a> 
+ <a href="https://meet.google.com/xjh-fimh-zxd">meet.google.com/xjh-fimh-zxd</a> 
 </span>
 
 <br>
@@ -76,16 +77,13 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Programação: Próximas datas
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-06-29",
-                         "2020-07-06","2020-06-13","2020-06-20",
-                         "2020-06-27"))
-minhahora<-rep("14 Horas",5)
+minhasdatas <- as.Date(c("2020-07-06","2020-07-13","2020-07-20",
+                         "2020-07-27"))
+minhahora<-rep("14 Horas",4)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Bruno Simões","Felipe Ribeiro"
-               ,"Davi Alves","Beatriz Cunha","Steven Ross")
+Palestrante<-c("Felipe Ribeiro","Davi Alves","Beatriz Cunha","Steven Ross")
 
-Link<- c("meet.google.com/xjh-fimh-zxd",
-"meet.google.com/uns-ycoi-bzk",
+Link<- c("meet.google.com/uns-ycoi-bzk",
 "meet.google.com/adf-ftxf-idn",
 "meet.google.com/phz-tmge-tqs",
 "meet.google.com/aeu-aahe-kws")
@@ -105,34 +103,34 @@ DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 ## Eventos anteriores
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-05-25"
-                         ,"2020-06-01","2020-06-08","2020-06-15"))
-#                         "2020-06-22","2020-06-29",
+minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15",
+                         "2020-06-22"))
+#,"2020-06-29",
 #                         "2020-07-06","2020-06-13","2020-06-20",
 #                         "2020-06-27"))
-minhahora<-rep("14 Horas",4)
+#minhahora<-rep("14 Horas",4)
 #format(minhasdatas, format="%d%m%Y")
 Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva"
-              ,"Luciane Velasque")#"Letícia Raposo",
+              ,"Luciane Velasque","Letícia Raposo")
 #               "Bruno Simões","Felipe Ribeiro","Davi Alves",
 #               "Beatriz Cunha","Steven Ross")
 
-Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia")
+Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online")
 
-Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf")
-#"meet.google.com/cfo-zhba-oyr",
+Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr")
+
 #"meet.google.com/xjh-fimh-zxd",
 #"meet.google.com/uns-ycoi-bzk",
 #"meet.google.com/adf-ftxf-idn",
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs",NA)
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E",NA)
 
-#estimativa_do_numero_de_pessoas<-c(23,60,20,26)
+#estimativa_do_numero_de_pessoas<-c(23,60,20,26,50)
 
-prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante,Titulo, youtube)
-colnames(prog)<-c("Datas","Hora","Palestrante","Título","Link")
+prog<-data.frame(format(minhasdatas, format="%d %m %Y"),Palestrante,Titulo, youtube)
+colnames(prog)<-c("Datas","Palestrante","Título","Link")
 
 DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 #DT::datatable(head(iris), editable = 'cell')
