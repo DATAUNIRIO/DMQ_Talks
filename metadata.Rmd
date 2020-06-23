@@ -127,7 +127,7 @@ Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://
 
 youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E",NA)
 
-#estimativa_do_numero_de_pessoas<-c(23,60,20,26,50)
+#estimativa_do_numero_de_pessoas<-c(23,59,20,26,50)
 
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),Palestrante,Titulo, youtube)
 colnames(prog)<-c("Datas","Palestrante","Título","Link")
