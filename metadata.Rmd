@@ -28,7 +28,7 @@ Projetos no ensino superior e pesquisas: ações e reflexões de um professor es
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">A pandemia de Covid-19 forçou inúmeros reflexões e transformações surgirem na nossa sociedade, que hoje se vê com maior responsabilidade com o próximo, a pensar em formas de reinventar a economia num processo mais participativo e no compartilhamento de saberes. Na Educação, professores debatem exaustivamente sobre novas abordagens metodológicas que possibilitem maior engajamento de alunos e professores na relação ensino-aprendizagem. A ideia dessa apresentação é proporcionar um ambiente de discussões sobre a metodologia de projetos, debater sobre ideias já utilizadas para desenvolvê-los remotamente e mostrar algumas atividades que desenvolvo como professor e pesquisador durante este momento.</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">A pandemia de Covid-19 forçou que inúmeras reflexões e transformações surgissem na nossa sociedade, que hoje se vê com maior responsabilidade com o próximo, a pensar em formas de reinventar a economia num processo mais participativo e no compartilhamento de saberes. Na Educação, professores debatem exaustivamente sobre novas abordagens metodológicas que possibilitem maior engajamento de alunos e professores na relação ensino-aprendizagem. A ideia dessa apresentação é proporcionar um ambiente de discussões sobre a metodologia de projetos, debater sobre ideias já utilizadas para desenvolvê-los remotamente e mostrar algumas atividades que desenvolvo como professor e pesquisador durante este momento.</span>
 <br> 
 
 <!--
