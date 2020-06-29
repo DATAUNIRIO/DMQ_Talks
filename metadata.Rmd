@@ -21,17 +21,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Título da Palestra
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
-Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso
+Em breve
 </span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">A pandemia de Covid-19 forçou que inúmeras reflexões e transformações surgissem na nossa sociedade, que hoje se vê com maior responsabilidade com o próximo, a pensar em formas de reinventar a economia num processo mais participativo e no compartilhamento de saberes. Na Educação, professores debatem exaustivamente sobre novas abordagens metodológicas que possibilitem maior engajamento de alunos e professores na relação ensino-aprendizagem. A ideia dessa apresentação é proporcionar um ambiente de discussões sobre a metodologia de projetos, debater sobre ideias já utilizadas para desenvolvê-los remotamente e mostrar algumas atividades que desenvolvo como professor e pesquisador durante este momento.</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve</span>
 <br> 
 
 <!--
+A pandemia de Covid-19 forçou que inúmeras reflexões e transformações surgissem na nossa sociedade, que hoje se vê com maior responsabilidade com o próximo, a pensar em formas de reinventar a economia num processo mais participativo e no compartilhamento de saberes. Na Educação, professores debatem exaustivamente sobre novas abordagens metodológicas que possibilitem maior engajamento de alunos e professores na relação ensino-aprendizagem. A ideia dessa apresentação é proporcionar um ambiente de discussões sobre a metodologia de projetos, debater sobre ideias já utilizadas para desenvolvê-los remotamente e mostrar algumas atividades que desenvolvo como professor e pesquisador durante este momento.
 
 Diante da pandemia da COVID-19, as aulas online têm sido avaliadas e aplicadas em algumas instituições como substitutas temporárias do ensino presencial. Inúmeros professores que nunca tiveram experiência com um ensino nesta modalidade, de repente, se veem diante do desafio de ministrarem um curso remoto. Eis que surge a pergunta: "Como proporcionar ao aluno um ensino online de qualidade, criativo e dinâmico de forma a envolvê-lo ativamente nas aulas?". Para tentar responder à pergunta, irei apresentar algumas atividades e ferramentas que podem ser utilizadas no ensino online. A ideia principal é compartilharmos experiências e ideias a fim de nos prepararmos para uma nova forma de ensinar.
 
@@ -44,14 +45,14 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Bruno Simões</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Felipe Ribeiro Melo</span>
 <br>
 <br>
 <br>
 
 ## Mediador(a)/Debatedor(a)
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Beatriz Cunha</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. </span>
 <br>
 <br>
 <br>
@@ -66,7 +67,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Link para o evento
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- <a href="https://meet.google.com/xjh-fimh-zxd">meet.google.com/xjh-fimh-zxd</a> 
+ <a href="https://meet.google.com/uns-ycoi-bzk">meet.google.com/uns-ycoi-bzk</a> 
 </span>
 
 <br>
@@ -77,14 +78,12 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Programação: Próximas datas
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-07-06","2020-07-13","2020-07-20",
-                         "2020-07-27"))
-minhahora<-rep("14 Horas",4)
+minhasdatas <- as.Date(c("2020-07-13","2020-07-20","2020-07-27"))
+minhahora<-rep("14 Horas",3)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Felipe Ribeiro","Davi Alves","Beatriz Cunha","Steven Ross")
+Palestrante<-c("Davi Alves","Beatriz Cunha","Steven Ross")
 
-Link<- c("meet.google.com/uns-ycoi-bzk",
-"meet.google.com/adf-ftxf-idn",
+Link<- c("meet.google.com/adf-ftxf-idn",
 "meet.google.com/phz-tmge-tqs",
 "meet.google.com/aeu-aahe-kws")
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante,Link)
@@ -104,30 +103,26 @@ DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 
 ```{r,echo=FALSE}
 minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15",
-                         "2020-06-22"))
-#,"2020-06-29",
+                         "2020-06-22","2020-07-29"))
 #                         "2020-07-06","2020-06-13","2020-06-20",
 #                         "2020-06-27"))
-#minhahora<-rep("14 Horas",4)
-#format(minhasdatas, format="%d%m%Y")
 Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva"
-              ,"Luciane Velasque","Letícia Raposo")
-#               "Bruno Simões","Felipe Ribeiro","Davi Alves",
+              ,"Luciane Velasque","Letícia Raposo","Bruno Simões")
+#,"Felipe Ribeiro","Davi Alves",
 #               "Beatriz Cunha","Steven Ross")
 
-Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online")
+Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso")
 
-Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr")
+Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd")
 
-#"meet.google.com/xjh-fimh-zxd",
 #"meet.google.com/uns-ycoi-bzk",
 #"meet.google.com/adf-ftxf-idn",
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI")
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI",NA)
 
-#estimativa_do_numero_de_pessoas<-c(23,59,20,26,50)
+#estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26)
 
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),Palestrante,Titulo, youtube)
 colnames(prog)<-c("Datas","Palestrante","Título","Link")
