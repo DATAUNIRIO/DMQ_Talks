@@ -20,15 +20,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">
-Em breve
-</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Após suspensão do calendário acadêmico 2020, grande parte dos docentes voltou-se exclusivamente às suas tarefas "fora de sala de aula", incluindo atividades de pesquisa, extensão, gestão e, até mesmo, de ensino, dentro das limitações impostas pelo distanciamento social. Neste encontro, compartilharei algumas das atividades acadêmicas que venho desenvolvendo durante a quarentena, como orientação de TCC's, elaboração de questionário para projeto de pesquisa, experiência com a ferramenta Google Meet e ilustrações que podem ser úteis em aulas de Probabilidade. E tudo isto com participação do software R.</span>
 <br> 
 
 <!--
@@ -52,7 +50,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Mediador(a)/Debatedor(a)
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. </span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Alexandre Silva </span>
 <br>
 <br>
 <br>
