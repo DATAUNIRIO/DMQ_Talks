@@ -18,13 +18,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">“Então você não está trabalhando?” – O que um professor universitário tem feito durante a quarentena?</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">“Então você não está trabalhando?” – Esta é uma pergunta que muitos professores afastados das atividades em sala de aula podem ter escutado durante a pandemia da COVID-19. As medidas de distanciamento físico e a necessidade de atuação remota de maneira repentina sem o devido preparo, planejamento e estrutura, muitas vezes tem aumentado a jornada de trabalho e incluído uma exigência interna constante de mais produtividade. Com a suspensão do calendário acadêmico 2020 na UNIRIO tenho dedicado muito tempo às atividades de pesquisa e extensão, além de preparar alguns instrumentos para o retorno on-line das atividades de ensino. Neste encontro vou compartilhar o melhor do que venho desenvolvendo durante a pandemia e apresentar os potenciais produtos.</span>
 <br> 
 
 <!--
@@ -50,7 +50,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Mediador(a)/Debatedor(a)
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. </span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve. </span>
 <br>
 <br>
 <br>
@@ -111,7 +111,7 @@ Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "P
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI",NA,NA)
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs")
 
 #estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21)
 

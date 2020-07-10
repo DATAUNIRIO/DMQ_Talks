@@ -20,6 +20,34 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
+# Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena  
+<br>
+
+## Felipe Ribeiro  
+<br>
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/ohlzTdTZqFs")
+
+```
+
+<br>
+<br>
+
+# Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso	
+<br>
+
+## Bruno Simões
+<br>
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/F3thfDwArZY")
+
+```
+
+<br>
+<br>
+
 # Atividades e Ferramentas para o Ensino Online
 <br>
 
