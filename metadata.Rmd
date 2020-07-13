@@ -18,16 +18,18 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">“Então você não está trabalhando?” – O que um professor universitário tem feito durante a quarentena?</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">“Então você não está trabalhando?” – Esta é uma pergunta que muitos professores afastados das atividades em sala de aula podem ter escutado durante a pandemia da COVID-19. As medidas de distanciamento físico e a necessidade de atuação remota de maneira repentina sem o devido preparo, planejamento e estrutura, muitas vezes tem aumentado a jornada de trabalho e incluído uma exigência interna constante de mais produtividade. Com a suspensão do calendário acadêmico 2020 na UNIRIO tenho dedicado muito tempo às atividades de pesquisa e extensão, além de preparar alguns instrumentos para o retorno on-line das atividades de ensino. Neste encontro vou compartilhar o melhor do que venho desenvolvendo durante a pandemia e apresentar os potenciais produtos.</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve</span>
 <br> 
 
 <!--
+“Então você não está trabalhando?” – Esta é uma pergunta que muitos professores afastados das atividades em sala de aula podem ter escutado durante a pandemia da COVID-19. As medidas de distanciamento físico e a necessidade de atuação remota de maneira repentina sem o devido preparo, planejamento e estrutura, muitas vezes tem aumentado a jornada de trabalho e incluído uma exigência interna constante de mais produtividade. Com a suspensão do calendário acadêmico 2020 na UNIRIO tenho dedicado muito tempo às atividades de pesquisa e extensão, além de preparar alguns instrumentos para o retorno on-line das atividades de ensino. Neste encontro vou compartilhar o melhor do que venho desenvolvendo durante a pandemia e apresentar os potenciais produtos.
+
 Após suspensão do calendário acadêmico 2020, grande parte dos docentes voltou-se exclusivamente às suas tarefas "fora de sala de aula", incluindo atividades de pesquisa, extensão, gestão e, até mesmo, de ensino, dentro das limitações impostas pelo distanciamento social. Neste encontro, compartilharei algumas das atividades acadêmicas que venho desenvolvendo durante a quarentena, como orientação de TCC's, elaboração de questionário para projeto de pesquisa, experiência com a ferramenta Google Meet e ilustrações que podem ser úteis em aulas de Probabilidade. E tudo isto com participação do software R.
 
 A pandemia de Covid-19 forçou que inúmeras reflexões e transformações surgissem na nossa sociedade, que hoje se vê com maior responsabilidade com o próximo, a pensar em formas de reinventar a economia num processo mais participativo e no compartilhamento de saberes. Na Educação, professores debatem exaustivamente sobre novas abordagens metodológicas que possibilitem maior engajamento de alunos e professores na relação ensino-aprendizagem. A ideia dessa apresentação é proporcionar um ambiente de discussões sobre a metodologia de projetos, debater sobre ideias já utilizadas para desenvolvê-los remotamente e mostrar algumas atividades que desenvolvo como professor e pesquisador durante este momento.
@@ -43,14 +45,14 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Davi Alves</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Beatriz Cunha</span>
 <br>
 <br>
 <br>
 
 ## Mediador(a)/Debatedor(a)
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve. </span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Alexandre Silva </span>
 <br>
 <br>
 <br>
@@ -65,7 +67,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Link para o evento
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- <a href="meet.google.com/adf-ftxf-idn">meet.google.com/adf-ftxf-idn</a> 
+ <a href="meet.google.com/phz-tmge-tqs">meet.google.com/phz-tmge-tqs</a> 
 </span>
 
 <br>
@@ -76,13 +78,12 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Programação: Próximas datas
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-07-20","2020-07-27","2020-08-03"))
-minhahora<-rep("14 Horas",3)
+minhasdatas <- as.Date(c("2020-07-27","2020-08-03"))
+minhahora<-rep("14 Horas",2)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Beatriz Cunha","Steven Ross","Vinícius Israel")
+Palestrante<-c("Steven Ross","Vinícius Israel")
 
-Link<- c("meet.google.com/phz-tmge-tqs",
-"meet.google.com/aeu-aahe-kws",NA)
+Link<- c("meet.google.com/aeu-aahe-kws",NA)
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante,Link)
 colnames(prog)<-c("Datas","Hora","Palestrante","Link")
 
@@ -99,21 +100,21 @@ DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 ## Eventos anteriores
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15","2020-06-22","2020-06-29","2020-07-06"))
+minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15","2020-06-22","2020-06-29","2020-07-06","2020-07-13"))
 
-Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva","Luciane Velasque","Letícia Raposo","Bruno Simões","Felipe Ribeiro")
-#,"Davi Alves","Beatriz Cunha","Steven Ross")
+Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva","Luciane Velasque","Letícia Raposo","Bruno Simões","Felipe Ribeiro","Davi Alves")
+#,"Beatriz Cunha","Steven Ross")
 
-Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso","Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena")
+Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso","Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena","'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?")
 
 #Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd""meet.google.com/uns-ycoi-bzk")
 #"meet.google.com/adf-ftxf-idn",
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs")
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs",NA)
 
-#estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21)
+#estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21,19)
 
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),Palestrante,Titulo, youtube)
 colnames(prog)<-c("Datas","Palestrante","Título","Link")
