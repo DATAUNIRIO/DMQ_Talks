@@ -38,6 +38,7 @@ embed_url("https://youtu.be/zP0a6f-7OnM")
 
 # Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena   
 <br> 
+
 ## Felipe Ribeiro   
 
 <br>
