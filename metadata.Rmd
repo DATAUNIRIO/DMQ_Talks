@@ -112,7 +112,7 @@ Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "P
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs",NA)
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs","https://youtu.be/zP0a6f-7OnM")
 
 #estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21,19)
 
