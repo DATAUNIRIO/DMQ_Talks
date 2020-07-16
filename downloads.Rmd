@@ -20,10 +20,26 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
-# Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena  
+# 'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?   
+
 <br>
 
-## Felipe Ribeiro  
+## Davi Alves  
+<br>  
+
+```{r, echo=FALSE}
+
+embed_url("https://youtu.be/zP0a6f-7OnM")
+
+```
+ 
+<br>
+<br>
+
+# Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena   
+<br> 
+## Felipe Ribeiro   
+
 <br>
 ```{r, echo=FALSE}
 
