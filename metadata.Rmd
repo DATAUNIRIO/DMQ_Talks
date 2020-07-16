@@ -18,13 +18,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Meu universo paralelo: Relatos de uma professora em isolamento social</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Em breve</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">A pandemia da Covid-19 alterou a rotina de todos. Pessoas foram obrigadas repentinamente a mudar hábitos e rotinas. Mas a orientação de ficar em casa afetou as pessoas de forma diferente: alguns conseguiram manter suas produções, outros nem tanto. Nessa palestra eu pretendo mostrar como eu usei os dados da pandemia para levar conhecimento de estatística para as pessoas das minhas redes sociais e alunos, além de mostrar os projetos que estou desenvolvendo durante o distanciamento social.</span>
 <br> 
 
 <!--
