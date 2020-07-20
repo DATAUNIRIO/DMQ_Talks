@@ -18,16 +18,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Meu universo paralelo: Relatos de uma professora em isolamento social</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Rython (R + Python): Tidy
+Little Things</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">A pandemia da Covid-19 alterou a rotina de todos. Pessoas foram obrigadas repentinamente a mudar hábitos e rotinas. Mas a orientação de ficar em casa afetou as pessoas de forma diferente: alguns conseguiram manter suas produções, outros nem tanto. Nessa palestra eu pretendo mostrar como eu usei os dados da pandemia para levar conhecimento de estatística para as pessoas das minhas redes sociais e alunos, além de mostrar os projetos que estou desenvolvendo durante o distanciamento social.</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">Chegou aquele momento assustador. Falar alguma coisa interessante por 40 minutos para os meus colegas da Universidade sem nunca ter dado uma aula virtual na vida. E ainda me deparo com outro novo desafio: Em uma plataforma virtual, como mapear a dúvida de um aluno sobre histograma ou p-valor? Assim, sem prévias respostas, me lanço ao risco. Independente disso, com a suspensão do calendário de aulas da UNIRIO, busco dedicar o meu tempo às atividades de pesquisa, extensão e preparação de aulas digitais. Todas essas iniciativas foram desenvolvidas com o Rython (R + Python). Essa é uma grande oportunidade para mostrar um pouco desse trabalho.
+</span>
 <br> 
-
 <!--
+A pandemia da Covid-19 alterou a rotina de todos. Pessoas foram obrigadas repentinamente a mudar hábitos e rotinas. Mas a orientação de ficar em casa afetou as pessoas de forma diferente: alguns conseguiram manter suas produções, outros nem tanto. Nessa palestra eu pretendo mostrar como eu usei os dados da pandemia para levar conhecimento de estatística para as pessoas das minhas redes sociais e alunos, além de mostrar os projetos que estou desenvolvendo durante o distanciamento social.
+
+
 “Então você não está trabalhando?” – Esta é uma pergunta que muitos professores afastados das atividades em sala de aula podem ter escutado durante a pandemia da COVID-19. As medidas de distanciamento físico e a necessidade de atuação remota de maneira repentina sem o devido preparo, planejamento e estrutura, muitas vezes tem aumentado a jornada de trabalho e incluído uma exigência interna constante de mais produtividade. Com a suspensão do calendário acadêmico 2020 na UNIRIO tenho dedicado muito tempo às atividades de pesquisa e extensão, além de preparar alguns instrumentos para o retorno on-line das atividades de ensino. Neste encontro vou compartilhar o melhor do que venho desenvolvendo durante a pandemia e apresentar os potenciais produtos.
 
 Após suspensão do calendário acadêmico 2020, grande parte dos docentes voltou-se exclusivamente às suas tarefas "fora de sala de aula", incluindo atividades de pesquisa, extensão, gestão e, até mesmo, de ensino, dentro das limitações impostas pelo distanciamento social. Neste encontro, compartilharei algumas das atividades acadêmicas que venho desenvolvendo durante a quarentena, como orientação de TCC's, elaboração de questionário para projeto de pesquisa, experiência com a ferramenta Google Meet e ilustrações que podem ser úteis em aulas de Probabilidade. E tudo isto com participação do software R.
@@ -45,7 +49,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Profa. Beatriz Cunha</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Steven Dutt-Ross</span>
 <br>
 <br>
 <br>
@@ -67,7 +71,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Link para o evento
 
 <span style=" font-size: 32px; font-weight:bold; color:darkblue;">
- <a href="meet.google.com/phz-tmge-tqs">meet.google.com/phz-tmge-tqs</a> 
+ <a href="http://meet.google.com/aeu-aahe-kws">meet.google.com/aeu-aahe-kws</a> 
 </span>
 
 <br>
@@ -78,12 +82,12 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 ## Programação: Próximas datas
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-07-27","2020-08-03"))
-minhahora<-rep("14 Horas",2)
+minhasdatas <- as.Date(c("2020-08-03"))
+minhahora<-rep("14 Horas",1)
 #format(minhasdatas, format="%d%m%Y")
-Palestrante<-c("Steven Ross","Vinícius Israel")
+Palestrante<-c("Vinícius Israel")
 
-Link<- c("meet.google.com/aeu-aahe-kws",NA)
+Link<- c(NA)
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),minhahora,Palestrante,Link)
 colnames(prog)<-c("Datas","Hora","Palestrante","Link")
 
@@ -100,19 +104,19 @@ DT::datatable(prog, class = 'cell-border stripe',rownames=FALSE)
 ## Eventos anteriores
 
 ```{r,echo=FALSE}
-minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15","2020-06-22","2020-06-29","2020-07-06","2020-07-13"))
+minhasdatas <- as.Date(c("2020-05-25","2020-06-01","2020-06-08","2020-06-15","2020-06-22","2020-06-29","2020-07-06","2020-07-13","2020-07-20"))
 
-Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva","Luciane Velasque","Letícia Raposo","Bruno Simões","Felipe Ribeiro","Davi Alves")
-#,"Beatriz Cunha","Steven Ross")
+Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva","Luciane Velasque","Letícia Raposo","Bruno Simões","Felipe Ribeiro","Davi Alves","Beatriz Cunha")
+#,"Steven Ross")
 
-Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso","Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena","'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?")
+Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso","Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena","'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?","Meu universo paralelo: Relatos de uma professora em isolamento social")
 
 #Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd""meet.google.com/uns-ycoi-bzk")
 #"meet.google.com/adf-ftxf-idn",
 #"meet.google.com/phz-tmge-tqs",
 #"meet.google.com/aeu-aahe-kws")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs","https://youtu.be/zP0a6f-7OnM")
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs","https://youtu.be/zP0a6f-7OnM",NA)
 
 #estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21,19)
 
