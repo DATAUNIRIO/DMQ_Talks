@@ -20,6 +20,17 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
+
+# Meu universo paralelo: relatos de uma professora em isolamento social
+
+<br>
+
+## Beatriz Cunha
+
+```{r, echo=FALSE}
+embed_url('https://youtu.be/cpanmwkB0Pk')
+```
+
 # 'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?   
 
 <br>
