@@ -18,13 +18,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Título da Palestra
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Em breve</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">O que fazer?  Reflexões sobre o retorno remoto.</span>
 
 <br>
 
 ## Resumo
 
-<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;"> Em breve</span>
+<span style=" font-size: 20px; font-weight:bold;text-align: justify;color:darkblue;">De forma intimista vou apresentar algumas reflexões sobre a pandemia e sobre a retomada das aulas remotamente. Pretendo apresentar o que aprendi assistindo as palestras do DMQ-Talks e, por fim, vou propor um debate sobre o retorno com meus colegas de departamento</span>
 <br> 
 <!--
 Chegou aquele momento assustador. Falar alguma coisa interessante por 40 minutos para os meus colegas da Universidade sem nunca ter dado uma aula virtual na vida. E ainda me deparo com outro novo desafio: Em uma plataforma virtual, como mapear a dúvida de um aluno sobre histograma ou p-valor? Assim, sem prévias respostas, me lanço ao risco. Independente disso, com a suspensão do calendário de aulas da UNIRIO, busco dedicar o meu tempo às atividades de pesquisa, extensão e preparação de aulas digitais. Todas essas iniciativas foram desenvolvidas com o Rython (R + Python). Essa é uma grande oportunidade para mostrar um pouco desse trabalho.
@@ -49,7 +49,7 @@ A disseminação do COVID- 19 no Brasil e no mundo ainda está cercada de incert
 
 ## Palestrante
 
-<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof. Vinícius</span>
+<span style=" font-size: 32px; font-weight:bold; color:darkblue;">Prof.Vinícius Israel</span>
 <br>
 <br>
 <br>
