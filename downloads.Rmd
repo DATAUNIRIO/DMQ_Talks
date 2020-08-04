@@ -20,6 +20,16 @@ knitr::opts_chunk$set(echo = TRUE)
 <br>
 <br>
 
+# Rython (R + Python): Tidy Little Things
+
+<br>
+
+## Steven Dutt-Ross
+
+
+```{r, echo=FALSE}
+embed_url('https://youtu.be/fAwsXfoYRWg')
+```
 
 # Meu universo paralelo: relatos de uma professora em isolamento social
 
