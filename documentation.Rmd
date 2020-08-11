@@ -38,7 +38,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Toda semana um(a) professor(a) do DMQ apresentará um trabalho de ensino/pesquisa dessa época do COVID. 
 
-Serão 40 minutos de exposição do professor via ZOOM.
+Serão 40 minutos de exposição do professor via MEET.
 
 Em seguida vamos ter 20 minutos para um debate/bate papo/perguntas. 
 
+<br>
+<br>
+<br>
+
+## Público Alvo
+
+Professores do DMQ e do DMat. 
+
+Alunos da UNIRIO.
+
+Técnicos da Escola de Matemática.
+
+Professores/técnicos do CCET.
