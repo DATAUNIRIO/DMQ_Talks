@@ -111,16 +111,16 @@ Palestrante<-c("Tereza Barbosa","Pimentel/Vinicius","Alexandre Silva","Luciane V
 
 Titulo<- c("Perspectivas para nossa vida pessoal e acadêmica pós pandemia", "Práticas didático-pedagógicas e a formação de professores para o exercício responsável da docência online","Educação Estatística na promoção do engajamento cívico","O Pandemônio da Pandemia","Atividades e Ferramentas para o Ensino Online","Projetos no ensino superior e pesquisas: ações e reflexões de um professor esperançoso","Google Meet, Probabilidade e R (não necessariamente nesta ordem): um pouco da minha quarentena","'Então você não está trabalhando?' – O que um professor universitário tem feito durante a quarentena?","Meu universo paralelo: Relatos de uma professora em isolamento social","Rython (R + Python): Tidy little things")
 
-#Link<- c("meet.google.com/wqk-fcod-eps","meet.google.com/bwt-pmee-acz","https://www.meet.google.com/axv-azca-rwq","meet.google.com/mrw-qgvc-svf","meet.google.com/cfo-zhba-oyr","meet.google.com/xjh-fimh-zxd""meet.google.com/uns-ycoi-bzk")
-#"meet.google.com/adf-ftxf-idn",
-#"meet.google.com/phz-tmge-tqs",
-#"meet.google.com/aeu-aahe-kws")
+youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs","https://youtu.be/zP0a6f-7OnM","https://youtu.be/cpanmwkB0Pk","https://youtu.be/fAwsXfoYRWg","https://www.youtube.com/watch?v=UuR79Zh6WCQ","https://www.youtube.com/watch?v=ewuZ2LJBwi4")
 
-youtube<-c("https://youtu.be/bZl3-HJdLlo","https://youtu.be/Ai6wcDdHhmc","https://youtu.be/A42EgBiG3Zs","https://youtu.be/2bTlNeYpW1E","https://youtu.be/x_nG91PiuKI","https://youtu.be/F3thfDwArZY","https://youtu.be/ohlzTdTZqFs","https://youtu.be/zP0a6f-7OnM","https://youtu.be/cpanmwkB0Pk","https://youtu.be/fAwsXfoYRWg",NA)
+estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21,19,15,NA,19,
+17, #ponce
+30,  # Davi 
+21   # Leticia
+23 # denise
+)
 
-estimativa_do_numero_de_pessoas<-c(23,59,20,26,50,26,21,19,15,NA,19)
-
-estimativa_do_numero_de_pessoas_assicrona<-c(29,127,16,74,19,11,7,13,4,NA)
+estimativa_do_numero_de_pessoas_assicrona<-c(29,127,16,74,19,11,7,13,4,NA,NA)
 
 prog<-data.frame(format(minhasdatas, format="%d %m %Y"),Palestrante,Titulo, youtube)
 colnames(prog)<-c("Datas","Palestrante","Título","Link")
